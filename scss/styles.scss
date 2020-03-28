@@ -20,5 +20,8 @@ img {
     display: grid;
     align-items: stretch;
 } 
+.b-icon {
+    background: url('../img/hot_plain_bread.svg') bottom right no-repeat;
+}
 
 @import 'layout', 'icomoon';
