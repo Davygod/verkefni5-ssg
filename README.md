@@ -1,2 +1,1 @@
-# verkefni 5-ssg
-vefþ2vh
+# verkefni6-ssg
