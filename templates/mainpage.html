@@ -6,6 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="headcol-2">
+        <div>
+            <a href="index.hml">
+                <img src="img/myrecipes.svg" alt="">
+            </a>
+        </div>
+        <nav class="topnav">
+            <input type="checkbox" id="toggle" class="menuInput">
+            <label for="toggle" class="menuLabel"><span class="icon-home"></span></label>
+            <ul class="topmenu">
+                <li><a href="../bread.html" class="virkur"><span class="icon-bread"> Bread</span></a></li>
+                <li><a href="#" class="icon-starters"><span> Starters</span></a></li>
+                <li><a href="#" class="icon-maincourses"><span> Main Courses</span></a></li>
+                <li><a href="#" class="icon-desserts"><span> Desserts</span></a></li>
+                <li><a href="#" class="icon-glass"><span> Drinks</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    {% block content %} {% endblock %}
+    {% include "socialButts.html %"}
 </body>
 </html>
